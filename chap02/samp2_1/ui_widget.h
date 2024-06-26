@@ -44,7 +44,7 @@ public:
         QMetaObject::connectSlotsByName(Widget);
     } // setupUi
 
-    void retranslateUi(QWidget *Widget) //用来设置界面各组件的文字内容属性，如标签的文字、按键的文字、窗体的标题等，设计多语言界面时会用到这个函数
+    void retranslateUi(QWidget *Widget)
     {
         Widget->setWindowTitle(QApplication::translate("Widget", "Widget", Q_NULLPTR));
         labelDemo->setText(QApplication::translate("Widget", "Hello World!", Q_NULLPTR));

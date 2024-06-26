@@ -55,6 +55,9 @@
         <property name="text">
          <string>Black</string>
         </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
       <item>
@@ -134,10 +137,6 @@ It is my demo. </string>
     </layout>
    </item>
   </layout>
-  <zorder>groupBox</zorder>
-  <zorder>groupBox_2</zorder>
-  <zorder>textEdit</zorder>
-  <zorder>btnOk</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
